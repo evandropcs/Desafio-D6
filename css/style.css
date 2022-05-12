@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400&family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.conteiner{
+    height: 100%;
+    background-color: #e0e8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-white{
+    background-color: #ffffff;
+    height: 620px;
+    width: 410px;
+    border-radius: 15px;
+}
+
+.img-hero{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.box-text{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 900;
+    color:#1e2f4d;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 500;
+    color:hsl(227deg 14% 60%);
+    padding-left: 40px;
+    padding-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-music{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f6f7fe;
+    margin: 0 35px 0 35px;
+    border-radius: 10px;
+    height: 89px;
+}
+
+.cxclave{
+    display: flex;
+}
+
+.img_clave{
+    float: left;
+}
+
+.plan{
+    font-weight: 900;
+    color: #384461;
+}
+
+.change{
+    color: hsl(247deg 64% 52%);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.payment{
+    background-color: hsl(245deg 75% 52%);
+    margin: 30px 35px 0 35px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 10px 20px 20px hsl(244deg 77% 93%);;
+}
+
+.cancel{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    color:#76829e;
+    font-weight: 700;
+}
